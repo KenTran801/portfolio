@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: beige;
+    color: black;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.header-nav a {
+    padding: 5px;
+}
+
+.header-nav a:hover{
+    color: chartreuse;
+}
