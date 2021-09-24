@@ -38,11 +38,13 @@ header h1 {
 
 .hero {
     background-image: url('../portfolio/assets/testing3.jpg');
-    height: 600px;
+    height: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
+    display: flex;
 }
+
 
 .section {
     color: black;
@@ -57,17 +59,27 @@ header h1 {
     flex: right;
 }
 
+.hero-header {
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    flex: right;
+}
+
 .aboutMe {
     padding: 50px;
-    color:rgb(0, 255, 128);
+    color: black;
     font-size: xx-large;
     font-weight: bold;
 }
-
-.aboutme-header {
-    color:rgb(0, 255, 128);
+/* .hero-quote {
+    padding: 50px;
+    color:yellow;
+    font-size: xx-large;
     font-weight: bolder;
-}
+    font-style: italic;
+} */
+
 
 .container {
     display: flex;
@@ -82,7 +94,7 @@ header h1 {
 }
 
 .contact-info a {
-    padding: 50px;
+    padding: 40px;
     color: black;
     font-size: xx-large;
 }
