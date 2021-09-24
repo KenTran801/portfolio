@@ -111,3 +111,11 @@ header h1 {
     justify-content: space-around;
 }
 
+.github-links {
+    color: black;
+    padding: 40px;
+}
+
+.github-links a:hover{
+    color:gold
+}
