@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: lightgray;
+    background-color: darkgray;
 }
 
 header {
@@ -28,7 +28,7 @@ header h1 {
 
 .header-nav a {
     padding: 15px;
-    color: white;
+    color: whitesmoke;
     font-size: large;
 }
 
@@ -46,7 +46,7 @@ header h1 {
 }
 
 .hero-header {
-    color: rgb(255, 255, 255);
+    color: whitesmoke;
     font-weight: bolder;
     font-size: 100px;
     /* flex: right; */
@@ -70,22 +70,12 @@ header h1 {
 }
 
 
-
 .aboutMe {
     padding: 50px;
     color: black;
     font-size: xx-large;
     font-weight: bold;
 }
-/* .hero-quote {
-    padding: 50px;
-    color:yellow;
-    font-size: xx-large;
-    font-weight: bolder;
-    font-style: italic;
-} */
-
-
 .container {
     display: flex;
     flex-direction: row;
@@ -106,4 +96,9 @@ header h1 {
 
 .contact-info a:hover{
     color:gold
+}
+
+.background {
+    /* width: 100px; */
+    /* display: flex; */
 }
