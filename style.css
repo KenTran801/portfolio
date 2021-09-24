@@ -37,8 +37,8 @@ header h1 {
 }
 
 .hero {
-    background-image: url('../portfolio/assets/IMG_0085.jpg');
-    height: 400px;
+    background-image: url('../portfolio/assets/testing3.jpg');
+    height: 600px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -59,8 +59,14 @@ header h1 {
 
 .aboutMe {
     padding: 50px;
-    color: black;
+    color:rgb(0, 255, 128);
     font-size: xx-large;
+    font-weight: bold;
+}
+
+.aboutme-header {
+    color:rgb(0, 255, 128);
+    font-weight: bolder;
 }
 
 .container {
