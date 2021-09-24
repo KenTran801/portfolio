@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: darkgray;
+    background-color:whitesmoke
 }
 
 header {
@@ -49,7 +49,6 @@ header h1 {
     color: whitesmoke;
     font-weight: bolder;
     font-size: 100px;
-    /* flex: right; */
     width: 100%;
     text-align: right;
     margin-top: 280px;
@@ -57,24 +56,31 @@ header h1 {
 }
 
 .section {
+    background-color: darkgray;
     color: black;
-    width: 80%;
     font-size: 20px;
     margin: 0 auto;
     display: flex;
+    padding: 50px;
+
 }
 
 .section h2 {
     font-size: 70px;
     flex: right;
+    border-right: 5px solid black;
+    padding-right: 75px;
 }
 
-
+#aboutme-nav {
+    padding-right: 130px;
+}
 .aboutMe {
     padding: 50px;
     color: black;
     font-size: xx-large;
     font-weight: bold;
+
 }
 .container {
     display: flex;
@@ -84,8 +90,10 @@ header h1 {
 
 .background h3 {
     padding: 50px;
-    color: black;
-    font-size: xx-large;
+    margin-bottom: 0;
+    font-size: 50px;
+    font-weight: bolder;
+    color: black
 }
 
 .contact-info a {
@@ -99,6 +107,7 @@ header h1 {
 }
 
 .background {
-    /* width: 100px; */
-    /* display: flex; */
+    margin: 0 auto;
+    justify-content: space-around;
 }
+
