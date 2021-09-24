@@ -33,7 +33,7 @@ header h1 {
 }
 
 .header-nav a:hover{
-    color: chartreuse;
+    color: gold;
 }
 
 .hero {
@@ -45,6 +45,16 @@ header h1 {
     display: flex;
 }
 
+.hero-header {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 100px;
+    /* flex: right; */
+    width: 100%;
+    text-align: right;
+    margin-top: 280px;
+    margin-right: 100px;
+}
 
 .section {
     color: black;
@@ -59,12 +69,7 @@ header h1 {
     flex: right;
 }
 
-.hero-header {
-    color: white;
-    font-weight: bolder;
-    font-size: xx-large;
-    flex: right;
-}
+
 
 .aboutMe {
     padding: 50px;
@@ -100,5 +105,5 @@ header h1 {
 }
 
 .contact-info a:hover{
-    color: blue;
+    color:gold
 }
